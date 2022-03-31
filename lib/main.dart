@@ -10,7 +10,7 @@ Future<void> main() {
     (options) {
       // Get your DSN from sentry.io
       options.dsn =
-          'https://c8f216b28d814d2ca83e52fb735da535@o266569.ingest.sentry.io/5558444';
+          '<put your dsn here>';
 
       // Add integration for `logging` package - https://pub.dev/packages/logging
       options.addIntegration(LoggingIntegration());
